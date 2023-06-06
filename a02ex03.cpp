@@ -11,6 +11,11 @@
 #include "Bread.hpp"
 #include "Cracker.hpp"
 #include "FilledWafer.hpp"
+#include "Cheese.hpp"
+#include "CottageCheese.hpp"
+#include "Ham.hpp"
+#include "Mortadella.hpp"
+
 
 /* DANGER: A LOT OF GLOBAL VARIABLES !!! (OBJECTS & STRUCTURES) */
 
