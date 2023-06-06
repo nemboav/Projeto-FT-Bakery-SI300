@@ -4,8 +4,12 @@
 int main(int argc, char* argv[]) {
     verifyArguments(argc, argv);
 
-    MyProgram program;
-    program.start();
+    MyProgram* program = new MyProgram();
+    program->setVerboseMode(true);
+    program->setShortMessageMode(false);
+    program->start();
+
+    delete program;
 
     return 0;
 }
