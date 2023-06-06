@@ -8,14 +8,14 @@
 
 using namespace std;
 
-class CottageCheese : public Cheese
+class cottageCheese : public Cheese
    {
    private:
       string marca;
       float peso;
       
    public:
-      CottageCheese(string, float);
+      cottageCheese(string, float);
       virtual string getDescricao();
    };
    

@@ -5,13 +5,13 @@
 
 using namespace std;
 
-CottageCheese::CottageCheese(string marca, float peso) : Food(), Cheese("")
+cottageCheese::cottageCheese(string marca, float peso) : Food(), Cheese("")
    {
     this->marca = marca;
     this->peso = peso;
    };
    
-string CottageCheese::getDescricao()
+string cottageCheese::getDescricao()
    { 
    return ("CottageCheese " + marca + " - " + to_string(peso) + " Kg."); 
    };
