@@ -1,5 +1,5 @@
-#ifndef A02EX03_H_H
-#define A02EX03_H_H
+#ifndef MORTADELLA_H
+#define MORTADELLA_H
 
 #include <string>
 #include "Food.hpp"
@@ -9,13 +9,11 @@ using namespace std;
 class Mortadella : public Food
    {
    private:
-      string tipo;
-      string marca;
-      float peso;
-      double valor;
+      string type;
+      float weight;
       
    public:
-      Mortadella(string, string, float, double);
+      Mortadella(string, float, double);
       virtual string getDescricao();
    };
    

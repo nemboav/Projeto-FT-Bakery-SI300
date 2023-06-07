@@ -1,5 +1,5 @@
-#ifndef A02EX03_D_H
-#define A02EX03_D_H
+#ifndef cracker_H
+#define cracker_H
 
 #include <string>
 #include "Food.hpp"
@@ -9,8 +9,8 @@ using namespace std;
 class Cracker : public Food
    {
    private:
-      string tipo;
-      int unidades;
+      string type;
+      int amount;
       
    public:
       Cracker(string, int, double);

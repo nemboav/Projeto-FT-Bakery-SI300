@@ -1,5 +1,5 @@
-#ifndef A02EX00_H
-#define A02EX00_H
+#ifndef INFORMATION_H
+#define INFORMATION_H
 #include <string>
 
 using namespace std;

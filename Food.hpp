@@ -1,5 +1,12 @@
-#ifndef A02EX03_B_H
-#define A02EX03_B_H
+/* Unicamp - Universidade Estadual de Campinas
+   FT - Faculdade de Tecnologia
+   Limeira - SP
+   Prof. Dr. Andre F. de Angelis
+   Maio/2016
+*/
+
+#ifndef FOOD_H
+#define FOOD_H
 
 #include <string>
 
@@ -8,13 +15,15 @@ using namespace std;
 class Food
    {
    protected:
-      double valor;
+      double value;
       
    public:
-      Food(double);
-      virtual double getValor();
+    Food(double);
+       virtual double getvalue();
 
-      virtual string getDescricao() = 0;
+       virtual string getDescricao() = 0;
    };
    
 #endif
+   
+/* fim de arquivo */

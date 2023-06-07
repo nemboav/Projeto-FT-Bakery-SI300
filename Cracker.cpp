@@ -4,13 +4,13 @@
 
 using namespace std;
 
-Cracker::Cracker(string tipo, int unidades, double valor) : Food(valor)
+Cracker::Cracker(string type, int amount, double cost) : Food(cost)
    {
-   this->tipo     = tipo;
-   this->unidades = unidades;
+      this->type     = type;
+      this->amount = amount;
    };
    
 string Cracker::getDescricao()
    { 
-   return ("Cracker " + tipo + " - " + to_string(unidades) + " un/pacote."); 
+   return ("Cracker " + type + " - " + to_string(amount) + " packets."); 
    };

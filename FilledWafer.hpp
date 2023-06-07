@@ -1,5 +1,5 @@
-#ifndef A02EX03_E_H
-#define A02EX03_E_H
+#ifndef FILLED_WAFER
+#define FILLED_WAFER
 
 #include <string>
 #include "Cracker.hpp"

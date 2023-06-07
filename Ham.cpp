@@ -4,14 +4,14 @@
 
 using namespace std;
 
-Ham::Ham(string tipo, string marca, float peso) : Food(valor)
+Ham::Ham(string type, int amount, float weight, double cost) : Food(cost)
    {
-   this->tipo = tipo;
-   this->marca = marca;
-   this->peso = peso;
+      this->type = type;
+      this->amount = amount;
+      this->weight = weight;
    };
    
 string Ham::getDescricao()
    { 
-   return ("Ham " + tipo + " - " + marca + " - " + to_string(peso) + " Kg."); 
+   return ("Ham " + type + " - " + to_string(amount) + " - " + to_string(weight) + " Kg."); 
    };

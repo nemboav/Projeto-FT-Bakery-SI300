@@ -4,16 +4,15 @@
 
 using namespace std;
 
-Cheese::Cheese(string tipo, int unidade, double peso) : Food (valor)
+Cheese::Cheese(string type, float weight, double cost) : Food (cost)
 {
-  this->tipo = tipo;
-  this->unidade = unidade;
-  this->peso = peso;
+  this->type = type;
+  this->weight = weight;
 };
 
 string Cheese::getDescricao()
   {
-    return ("Cheese " + tipo + " - "+ to_string(peso)+ " - " + to_string(unidade) + " Kg.");
+    return ("Cheese " + type + " - " + to_string(weight) + " Kg.");
   };
 
 

@@ -1,5 +1,5 @@
-#ifndef A02EX03_F_H
-#define A02EX03_F_H
+#ifndef CHEESE_H
+#define CHEESE_H
 
 #include <string>
 #include "Food.hpp"
@@ -9,12 +9,11 @@ using namespace std;
 class Cheese : public Food
   {
     private:
-      string tipo;
-      int unidade;
-      double peso;
+      string type;
+      float weight;
 
     public:
-      Cheese(string, int, double);
+      Cheese(string, float, double);
       virtual string getDescricao();
   };
 

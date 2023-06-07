@@ -1,7 +1,7 @@
-#ifndef FT_BAKERY_H
-#define FT_BAKERY_H
-#include "myProgram.hpp"
+#ifndef FTBAKERY_H
+#define FTBAKERY_H
 
-void verifyArguments(int arg, char* argv[]);
+int main(int argc, char *argv[]);
+void verifyArguments(int, char *[], MyProgram *program);
 
 #endif

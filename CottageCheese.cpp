@@ -1,17 +1,21 @@
+
+#ifndef COTTAGE_CHEESE_H
+#define COTTAGE_CHEESE_H
+
 #include <string>
 #include "Food.hpp"
 #include "Cheese.hpp"
-#include "CottageCheese.hpp"
 
 using namespace std;
 
-cottageCheese::cottageCheese(string marca, float peso) : Food(), Cheese("")
+class CottageCheese : public Cheese
    {
-    this->marca = marca;
-    this->peso = peso;
+   private:
+      string filling;
+      
+   public:
+      CottageCheese(string, string, float, double);
+      virtual string getDescricao();
    };
    
-string cottageCheese::getDescricao()
-   { 
-   return ("CottageCheese " + marca + " - " + to_string(peso) + " Kg."); 
-   };
+#endif

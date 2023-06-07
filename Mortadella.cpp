@@ -1,17 +1,18 @@
+
 #include <string>
 #include "Food.hpp"
 #include "Mortadella.hpp"
 
 using namespace std;
 
-Mortadella::Mortadella(string tipo, string marca, float peso, double valor) : Food(valor)
+Mortadella::Mortadella(string type, float weight, double value) : Food(value)
    {
-   this->tipo = tipo;
-   this->marca = marca;
-   this->peso = peso;
+   this->type = type;
+   this->weight = weight;
    };
    
 string Mortadella::getDescricao()
    { 
-   return ("Mortadella " + tipo + " - " + marca + " - " + to_string(peso) + " Kg."); 
+   return ("Mortadella " + type + " - " + to_string(weight) + " Kg."); 
    };
+   

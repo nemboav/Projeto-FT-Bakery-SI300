@@ -1,6 +1,6 @@
 
-#ifndef A02EX03_I_H
-#define A02EX03_I_H
+#ifndef COTTAGE_CHEESE_H
+#define COTTAGE_CHEESE_H
 
 #include <string>
 #include "Food.hpp"
@@ -8,14 +8,13 @@
 
 using namespace std;
 
-class cottageCheese : public Cheese
+class CottageCheese : public Cheese
    {
    private:
-      string marca;
-      float peso;
+      string filling;
       
    public:
-      cottageCheese(string, float);
+      CottageCheese(string, string, float, double);
       virtual string getDescricao();
    };
    
