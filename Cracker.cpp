@@ -1,3 +1,10 @@
+/* Unicamp - Universidade Estadual de Campinas
+   FT - Faculdade de Tecnologia
+   Limeira - SP
+   Prof. Dr. Andre F. de Angelis
+   Maio/2015
+*/
+
 #include <string>
 #include "Food.hpp"
 #include "Cracker.hpp"
@@ -14,3 +21,5 @@ string Cracker::getDescricao()
    { 
    return ("Cracker " + type + " - " + to_string(amount) + " packets."); 
    };
+
+/* fim de arquivo */

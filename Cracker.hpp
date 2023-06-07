@@ -1,3 +1,10 @@
+/* Unicamp - Universidade Estadual de Campinas
+   FT - Faculdade de Tecnologia
+   Limeira - SP
+   Prof. Dr. Andre F. de Angelis
+   Maio/2015
+*/
+
 #ifndef cracker_H
 #define cracker_H
 
@@ -18,3 +25,5 @@ class Cracker : public Food
    };
    
 #endif
+
+/* fim de arquivo */

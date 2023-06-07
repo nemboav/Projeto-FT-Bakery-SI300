@@ -19,7 +19,7 @@ class Food
       
    public:
     Food(double);
-       virtual double getvalue();
+       virtual double getValue();
 
        virtual string getDescricao() = 0;
    };

@@ -15,7 +15,7 @@ Food::Food(double value)
        this->value = value;
    };
    
-double Food::getvalue()
+double Food::getValue()
    { 
        return (value); 
    };

@@ -1,3 +1,10 @@
+/* Unicamp - Universidade Estadual de Campinas
+   FT - Faculdade de Tecnologia
+   Limeira - SP
+   Prof. Dr. Andre F. de Angelis
+   Mar/2016
+*/
+
 #ifndef MY_BOOLEAN_H
 #define MY_BOOLEAN_H
 
@@ -12,3 +19,5 @@ public:
 };
 
 #endif
+
+/* fim de arquivo */
